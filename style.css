@@ -1,7 +1,10 @@
 html,body{margin:0;padding:0}
 body{font: 130%/1.3 TrebuchetMS,Arial,sans-serif;
-    text-align: left;background: #981E32;padding-bottom:20px}
-a { color: #0066B3; background: inherit; text-decoration: none;}
+     text-align: left;
+	 color: #E1D8B7; /* main text color */
+	 background: #7D110C;
+	 padding-bottom:20px}
+a { color: #3C7793; background: inherit; text-decoration: none;}
 h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #981E32; }
 h2 { font: bold 1.1em Arial, Arial, Sans-Serif; padding: 0; margin: 0; }
 
@@ -29,7 +32,12 @@ div.section {
 }
 
 div.colored {
-    background: #eee;
+    color: #4A3C31; /* text color */
+    background: #D1D8B7; /* background color */
+}
+
+div.colored a {
+    color: #44697D; /* link color */
 }
 
 #left {
