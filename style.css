@@ -1,3 +1,16 @@
+div.colored {
+    color: #000000; /* text color */
+    background: #ffffff; /* background color */
+}
+
+div.colored a {
+    color: #0000cc; /* link color */
+}
+
+h1 {
+    font: bold 2.1em Arial, Arial, Sans-Serif;
+    color: #cc0000; /* heading color */
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -5,18 +18,14 @@ html, body {
 body{
     font: 130%/1.3 TrebuchetMS,Arial,sans-serif;
     text-align: left;
-    color: #E1D8B7; /* main text color */
-    background: #7D110C;
+    color: #000000; /* main text color */
+    background: #e8f8f8; /* main text background color */
     padding-bottom:20px;
 }
 a {
-    color: #3C7793;
+    color: #0000cc; /* link color */
     background: inherit;
     text-decoration: none;
-}
-h1 {
-    font: bold 2.1em Arial, Arial, Sans-Serif;
-    color: #981E32;
 }
 h2 {
     font: bold 1.1em Arial, Arial, Sans-Serif;
@@ -34,15 +43,6 @@ div.section {
     padding: 1em;
     margin-bottom: 1.2em;
     text-align: justify;
-}
-
-div.colored {
-    color: #4A3C31; /* text color */
-    background: #E1D8B7; /* background color */
-}
-
-div.colored a {
-    color: #44697D; /* link color */
 }
 
 #left {
