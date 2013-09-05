@@ -24,22 +24,6 @@ h2 {
     margin: 0;
 }
 
-div#header {
-    width: 100%;
-    overflow: hidden;
-    background: #6A7F10;
-}
-
-div#header h1, div#menu {
-    width:770px;
-    margin:0 auto;
-    text-align:left;
-}
-div#header h1 {
-    padding: 30px 0 20px;
-    color: #fff;
-}
-
 ul#nav,ul#nav li{
     list-style-type: none;
     margin: 0;
